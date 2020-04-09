@@ -8,7 +8,7 @@
   # Description:
   # Install a thin client-ready remmina
 
-- name: Install remmina
+- name: Install Remmina
   snap:
-    name:
-      - remmina
+    name: remmina
+    classic: yes
