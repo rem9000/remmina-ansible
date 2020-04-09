@@ -1,1 +1,10 @@
-.
+---
+  # Title: ansible-role-remmina-tc
+  #
+  # Author: Remko van den Hoef
+  # Version: 1.0
+  # File: defaults/main.yml
+  #
+  # Description:
+  # Install a thin client-ready remmina
+
