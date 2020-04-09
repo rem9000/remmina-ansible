@@ -8,6 +8,11 @@
   # Description:
   # Install a thin client-ready remmina
 
+- name: Install the package "Snap"
+  apt:
+    name: snapd
+    state: present
+
 - name: Install Remmina
   snap:
     name: remmina
